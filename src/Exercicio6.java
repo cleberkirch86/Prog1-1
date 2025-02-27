@@ -13,8 +13,8 @@ public class Exercicio6 {
         double celsius = (fahrenheit - 32) * 5 / 9;
 
         // Passo 4: Exibir a temperatura em Celsius
-
-        System.out.printf("A temperatura em Celsius é: %.2f°C\n",celsius);
+                                                          //  Formatfloat('#.2',celsius)
+        System.out.println("A temperatura em Celsius é: " + String.format("%.2f", celsius) + "°C");
 
                 scanner.close();
     }

@@ -36,9 +36,7 @@ public class Exercicio2 {
             System.out.println("Percentual de votos brancos: " + percentualBrancos + "%");
             System.out.println("Percentual de votos nulos: " + percentualNulos + "%");
             System.out.println("Percentual de votos válidos: " + percentualValidos + "%");
-        } else {
-            System.out.println("A soma dos votos não pode ser maior que o número total de eleitores.");
-        }
+        } else System.out.println("A soma dos votos não pode ser maior que o número total de eleitores.");
     }
 
 }
